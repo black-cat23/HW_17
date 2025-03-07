@@ -544,52 +544,64 @@
 
     }
 
-    .diet{
+    .diet {
         padding-top: 131px;
+        padding-bottom: 72px;
     }
 
-    .diet_container--item{
-    display: flex;
+    .diet_container--item {
+        display: flex;
     }
 
-    .diet_container--list{
+    .diet_container--list {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .diet_container--item--content{
+    .diet_container--item--content {
         padding-top: 16px;
         padding-left: 16px;
     }
 
-    
+    .diet_container--item--content p {
+        padding-top: 8px;
+    }
 
 
     .subscride {
         background-image: url(img/depositphotos_202281534-stock-photo-mixed-fruits-white-background\ 1.png);
         background-repeat: no-repeat;
         width: 100%;
-        b
     }
 
     .subscride_container {
-        width: 100%;
         max-width: 1008px;
+        width: 100%;
         margin: 0 auto;
         padding-top: 108px;
         padding-bottom: 146px;
     }
 
     .subscride_container--content {
+        padding-top: 59px;
         width: 100%;
         max-width: 488px;
         background-color: white;
         border-radius: 10px;
         padding-left: 72px;
+        padding-bottom: 21px;
     }
 
-    .subscride_container--content--title {
-        font-family: Roboto;
+    .subscride_container--text {
+        padding-top: 32px;
+    }
+
+    .subscride_container--comment {
+        padding-bottom: 31px;
+    }
+
+    .subscride_container--title {
+        color: #38CEA8;
         font-size: 24px;
         line-height: 32px;
         letter-spacing: 0%;
@@ -612,39 +624,40 @@
         margin-top: 32px;
     }
 
-    .subscride_container--content--comment {
-        font-family: Roboto;
+    .subscride_container--comment {
+        font-weight: 500;
         font-size: 12px;
         line-height: 18px;
         letter-spacing: 0%;
 
+
     }
 
-    .subscride_container--content--input {
+    .subscride_container--input {
         font-family: Roboto;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0%;
         color: #404040;
-        background-color: #EAFEEC;
+        background-color: #F0E9E9;
         border-color: rgba(255, 255, 255, 1);
-        border: 1px solid #F0E9E9;
+        border: 1px solid#888282;
         border-radius: 100px;
         width: 352px;
         padding-left: 16px;
         padding-top: 8px;
         padding-bottom: 8px;
         margin-top: 32px;
+        margin-bottom: 16px;
     }
 
-    .subscride_container--footer {
+    .subscride_container--content--footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
         max-width: 352px;
-        margin-top: 16px;
     }
 
     .subscride_container--content--button {
@@ -660,7 +673,7 @@
         height: 40px;
     }
 
-    .subscride_container--footer--text {
+    .subscride_container--content--footer {
         font-family: Roboto;
         font-size: 9px;
         line-height: 24px;
@@ -691,7 +704,7 @@
         line-height: 32px;
         letter-spacing: 0%;
         color: #FFFFFF;
-        
+
     }
 
     .startTheJurney_container>button {
@@ -701,7 +714,6 @@
         letter-spacing: 0%;
         color: #FFFFFF 2px solid;
         border: 2px #38CEA8;
-        border-radius: 24px
-        padding: 8px 16px ;
+        border-radius: 24px padding: 8px 16px;
         background-color: #38CEA8;
     }
