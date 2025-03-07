@@ -536,6 +536,172 @@
 
     .red_line--bottom .red_line {
         border-bottom: 2px solid red;
+
+    }
+
+    .price_table .red_line--bottom {
+        border-bottom: 2px solid red;
+
+    }
+
+    .diet{
+        padding-top: 131px;
+    }
+
+    .diet_container--item{
+    display: flex;
+    }
+
+    .diet_container--list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .diet_container--item--content{
+        padding-top: 16px;
+        padding-left: 16px;
+    }
+
+    
+
+
+    .subscride {
+        background-image: url(img/depositphotos_202281534-stock-photo-mixed-fruits-white-background\ 1.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        b
+    }
+
+    .subscride_container {
+        width: 100%;
+        max-width: 1008px;
+        margin: 0 auto;
+        padding-top: 108px;
+        padding-bottom: 146px;
+    }
+
+    .subscride_container--content {
+        width: 100%;
+        max-width: 488px;
+        background-color: white;
+        border-radius: 10px;
+        padding-left: 72px;
+    }
+
+    .subscride_container--content--title {
+        font-family: Roboto;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0%;
+
+    }
+
+    .subscride_container--subtitle {
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+
+    }
+
+    .subscride_container--content--text {
+        font-family: Roboto;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0%;
+        margin-top: 32px;
+    }
+
+    .subscride_container--content--comment {
+        font-family: Roboto;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0%;
+
+    }
+
+    .subscride_container--content--input {
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: #404040;
+        background-color: #EAFEEC;
+        border-color: rgba(255, 255, 255, 1);
+        border: 1px solid #F0E9E9;
+        border-radius: 100px;
+        width: 352px;
+        padding-left: 16px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-top: 32px;
+    }
+
+    .subscride_container--footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 352px;
+        margin-top: 16px;
+    }
+
+    .subscride_container--content--button {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: white;
+        background-color: darkcyan;
+        border: none;
+        border-radius: 100px;
+        width: 135px;
+        height: 40px;
+    }
+
+    .subscride_container--footer--text {
+        font-family: Roboto;
+        font-size: 9px;
+        line-height: 24px;
+        letter-spacing: 0%;
+
+    }
+
+
+
+    .startTheJurney {
+        background-color: #38CEA8;
+        padding-top: 76px;
+        padding-bottom: 76px;
+    }
+
+
+    .startTheJurney_container {
+        width: 100%;
+        max-width: 828px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .startTheJurney_container>h4 {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0%;
+        color: #FFFFFF;
         
     }
 
+    .startTheJurney_container>button {
+        font-family: Roboto;
+        font-size: 20;
+        line-height: 32px;
+        letter-spacing: 0%;
+        color: #FFFFFF 2px solid;
+        border: 2px #38CEA8;
+        border-radius: 24px
+        padding: 8px 16px ;
+        background-color: #38CEA8;
+    }
